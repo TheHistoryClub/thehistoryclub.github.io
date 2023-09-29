@@ -7,3 +7,6 @@
 [submodule "charter"]
 	path = charter
 	url = git@github.com:TheHistoryClub/charter.git
+[submodule "signin"]
+	path = signin
+	url = git@github.com:TheHistoryClub/signin.git
