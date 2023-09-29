@@ -1,0 +1,9 @@
+[submodule "discord"]
+	path = discord
+	url = git@github.com:TheHistoryClub/discord.git
+[submodule "doc"]
+	path = doc
+	url = git@github.com:TheHistoryClub/doc.git
+[submodule "charter"]
+	path = charter
+	url = git@github.com:TheHistoryClub/charter.git
