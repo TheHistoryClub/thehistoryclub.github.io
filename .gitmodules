@@ -1,12 +1,12 @@
 [submodule "discord"]
 	path = discord
-	url = git@github.com:TheHistoryClub/discord.git
+	url = https://github.com/TheHistoryClub/discord.git
 [submodule "doc"]
 	path = doc
-	url = git@github.com:TheHistoryClub/doc.git
+	url = https://github.com/TheHistoryClub/doc.git
 [submodule "charter"]
 	path = charter
-	url = git@github.com:TheHistoryClub/charter.git
+	url = https://github.com/TheHistoryClub/charter.git
 [submodule "signin"]
 	path = signin
-	url = git@github.com:TheHistoryClub/signin.git
+	url = https://github.com/TheHistoryClub/signin.git
