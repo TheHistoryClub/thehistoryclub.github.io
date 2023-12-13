@@ -22,3 +22,4 @@ jobs:
           git add .
           git commit -m "Update submodule"
           git push
+          exit 0
