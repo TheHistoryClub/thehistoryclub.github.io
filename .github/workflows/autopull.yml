@@ -1,0 +1,24 @@
+name: Update Submodules
+permissions:
+  contents: write
+on:
+  push:
+    branches:
+      - main   
+  workflow_dispatch: 
+  schedule:
+    - cron: '0 0 * * *'  # Run every day at midnight
+jobs:
+  update-submodules:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Commit report
+        run: |
+          git config --global user.name 'Automated Update'
+          git config --global user.email 'AutomatedUpdate@git.void'
+          git submodule update --init --recursive
+          git submodule update --recursive --remote
+          git add .
+          git commit -m "Update submodule"
+          git push
